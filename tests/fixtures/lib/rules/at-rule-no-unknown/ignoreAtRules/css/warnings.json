@@ -6,7 +6,7 @@
     "endColumn": 9,
     "rule": "stylus/at-rule-no-unknown",
     "severity": "error",
-    "text": "Unexpected unknown at-rule \"@unknown\" (stylus/at-rule-no-unknown)"
+    "text": "Unknown at-rule \"@unknown\" (stylus/at-rule-no-unknown)"
   },
   {
     "line": 4,
@@ -15,6 +15,6 @@
     "endColumn": 9,
     "rule": "stylus/at-rule-no-unknown",
     "severity": "error",
-    "text": "Unexpected unknown at-rule \"@unknown\" (stylus/at-rule-no-unknown)"
+    "text": "Unknown at-rule \"@unknown\" (stylus/at-rule-no-unknown)"
   }
 ]

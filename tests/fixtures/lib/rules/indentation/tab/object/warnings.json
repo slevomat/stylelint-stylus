@@ -64,9 +64,9 @@
   },
   {
     "line": 16,
-    "column": 3,
+    "column": 5,
     "endLine": 16,
-    "endColumn": 4,
+    "endColumn": 6,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"
@@ -109,9 +109,9 @@
   },
   {
     "line": 23,
-    "column": 3,
-    "endLine": 23,
-    "endColumn": 4,
+    "column": 5,
+    "endLine": 24,
+    "endColumn": 1,
     "rule": "stylus/indentation",
     "severity": "error",
     "text": "Expected indentation of 1 tab (stylus/indentation)"

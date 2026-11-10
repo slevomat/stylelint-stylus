@@ -3,7 +3,7 @@
     "line": 1,
     "column": 2,
     "endLine": 1,
-    "endColumn": 3,
+    "endColumn": 8,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
@@ -12,7 +12,7 @@
     "line": 2,
     "column": 2,
     "endLine": 2,
-    "endColumn": 3,
+    "endColumn": 8,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
@@ -21,7 +21,7 @@
     "line": 9,
     "column": 9,
     "endLine": 9,
-    "endColumn": 10,
+    "endColumn": 15,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
@@ -30,7 +30,7 @@
     "line": 17,
     "column": 7,
     "endLine": 17,
-    "endColumn": 8,
+    "endColumn": 13,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
@@ -39,7 +39,7 @@
     "line": 27,
     "column": 13,
     "endLine": 27,
-    "endColumn": 14,
+    "endColumn": 19,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
@@ -48,7 +48,7 @@
     "line": 35,
     "column": 4,
     "endLine": 35,
-    "endColumn": 5,
+    "endColumn": 10,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
@@ -57,7 +57,7 @@
     "line": 36,
     "column": 15,
     "endLine": 36,
-    "endColumn": 16,
+    "endColumn": 21,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
@@ -66,25 +66,25 @@
     "line": 41,
     "column": 33,
     "endLine": 41,
-    "endColumn": 34,
+    "endColumn": 39,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
   },
   {
-    "line": 47,
-    "column": 3,
+    "line": 46,
+    "column": 23,
     "endLine": 47,
-    "endColumn": 4,
+    "endColumn": 6,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
   },
   {
     "line": 52,
-    "column": 3,
+    "column": 5,
     "endLine": 52,
-    "endColumn": 4,
+    "endColumn": 11,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
@@ -93,7 +93,7 @@
     "line": 57,
     "column": 6,
     "endLine": 57,
-    "endColumn": 7,
+    "endColumn": 12,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":hover\" to be \":HOVER\" (stylus/selector-pseudo-class-case)"
