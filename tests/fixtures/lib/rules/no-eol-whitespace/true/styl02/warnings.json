@@ -1,36 +1,36 @@
 [
   {
     "line": 2,
-    "column": 3,
+    "column": 5,
     "endLine": 2,
-    "endColumn": 4,
+    "endColumn": 6,
     "rule": "stylus/no-eol-whitespace",
     "severity": "error",
     "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
   },
   {
     "line": 5,
-    "column": 3,
+    "column": 8,
     "endLine": 5,
-    "endColumn": 4,
+    "endColumn": 9,
     "rule": "stylus/no-eol-whitespace",
     "severity": "error",
     "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
   },
   {
-    "line": 6,
-    "column": 18,
-    "endLine": 6,
-    "endColumn": 19,
+    "line": 7,
+    "column": 2,
+    "endLine": 7,
+    "endColumn": 3,
     "rule": "stylus/no-eol-whitespace",
     "severity": "error",
     "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
   },
   {
-    "line": 23,
-    "column": 26,
-    "endLine": 23,
-    "endColumn": 27,
+    "line": 26,
+    "column": 7,
+    "endLine": 26,
+    "endColumn": 8,
     "rule": "stylus/no-eol-whitespace",
     "severity": "error",
     "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"

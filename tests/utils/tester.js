@@ -206,7 +206,7 @@ function lintFixture(fixture, options = {}) {
 }
 
 async function lintCode(code, codeFilename, options = {}) {
-    // eslint-disable-next-line node/no-unsupported-features/es-syntax -- ignore
+    // eslint-disable-next-line node/no-missing-import, node/no-unsupported-features/es-syntax -- Stylelint 18 is ESM-only
     const stylelint = await import("stylelint")
     return (stylelint.default || stylelint).lint({
         code,

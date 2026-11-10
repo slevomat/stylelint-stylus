@@ -27,19 +27,19 @@
     "text": "Expected newline before \"}\" (stylus/block-closing-brace-newline-before)"
   },
   {
-    "line": 11,
-    "column": 25,
-    "endLine": 11,
-    "endColumn": 26,
+    "line": 12,
+    "column": 19,
+    "endLine": 12,
+    "endColumn": 20,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" (stylus/block-closing-brace-newline-before)"
   },
   {
     "line": 12,
-    "column": 19,
+    "column": 21,
     "endLine": 12,
-    "endColumn": 20,
+    "endColumn": 22,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" (stylus/block-closing-brace-newline-before)"

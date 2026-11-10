@@ -2,7 +2,7 @@
   {
     "line": 1,
     "column": 1,
-    "endLine": 3,
+    "endLine": 1,
     "endColumn": 2,
     "rule": "stylus/pythonic",
     "severity": "error",
@@ -60,16 +60,7 @@
     "endColumn": 5,
     "rule": "stylus/at-rule-no-unknown",
     "severity": "error",
-    "text": "Unexpected unknown at-rule \"@for\" (stylus/at-rule-no-unknown)"
-  },
-  {
-    "line": 13,
-    "column": 3,
-    "endLine": 13,
-    "endColumn": 4,
-    "rule": "stylus/no-eol-whitespace",
-    "severity": "error",
-    "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
+    "text": "Unknown at-rule \"@for\" (stylus/at-rule-no-unknown)"
   },
   {
     "line": 13,
@@ -99,9 +90,18 @@
     "text": "Expected newline after \",\" (stylus/selector-list-comma-newline-after)"
   },
   {
+    "line": 13,
+    "column": 12,
+    "endLine": 13,
+    "endColumn": 13,
+    "rule": "stylus/no-eol-whitespace",
+    "severity": "error",
+    "text": "Unexpected whitespace at end of line (stylus/no-eol-whitespace)"
+  },
+  {
     "line": 16,
     "column": 1,
-    "endLine": 19,
+    "endLine": 16,
     "endColumn": 2,
     "rule": "stylus/pythonic",
     "severity": "error",
@@ -118,9 +118,9 @@
   },
   {
     "line": 19,
-    "column": 1,
+    "column": 2,
     "endLine": 19,
-    "endColumn": 2,
+    "endColumn": 3,
     "rule": "stylus/block-closing-brace-empty-line-before",
     "severity": "error",
     "text": "Unexpected empty line before closing brace (stylus/block-closing-brace-empty-line-before)"
@@ -130,18 +130,18 @@
     "column": 2,
     "endLine": 19,
     "endColumn": 3,
-    "rule": "stylus/block-closing-brace-newline-after",
-    "severity": "error",
-    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
-  },
-  {
-    "line": 19,
-    "column": 2,
-    "endLine": 20,
-    "endColumn": 13,
     "rule": "stylus/pythonic",
     "severity": "error",
     "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
+  },
+  {
+    "line": 19,
+    "column": 3,
+    "endLine": 19,
+    "endColumn": 4,
+    "rule": "stylus/block-closing-brace-newline-after",
+    "severity": "error",
+    "text": "Expected newline after \"}\" (stylus/block-closing-brace-newline-after)"
   },
   {
     "line": 19,
@@ -154,9 +154,9 @@
   },
   {
     "line": 20,
-    "column": 12,
+    "column": 11,
     "endLine": 20,
-    "endColumn": 13,
+    "endColumn": 12,
     "rule": "stylus/block-closing-brace-newline-before",
     "severity": "error",
     "text": "Expected newline before \"}\" of a multi-line block (stylus/block-closing-brace-newline-before)"
@@ -165,7 +165,7 @@
     "line": 21,
     "column": 1,
     "endLine": 21,
-    "endColumn": 16,
+    "endColumn": 2,
     "rule": "stylus/pythonic",
     "severity": "error",
     "text": "Expected 'pythonic' (i.e. indentation-based) (stylus/pythonic)"
@@ -209,7 +209,7 @@
   {
     "line": 22,
     "column": 1,
-    "endLine": 23,
+    "endLine": 22,
     "endColumn": 2,
     "rule": "stylus/pythonic",
     "severity": "error",
@@ -258,7 +258,7 @@
     "endColumn": 18,
     "rule": "no-invalid-position-at-import-rule",
     "severity": "error",
-    "text": "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)"
+    "text": "Invalid position for @import rule (no-invalid-position-at-import-rule)"
   },
   {
     "line": 24,
@@ -299,7 +299,7 @@
   {
     "line": 28,
     "column": 1,
-    "endLine": 31,
+    "endLine": 28,
     "endColumn": 2,
     "rule": "stylus/pythonic",
     "severity": "error",
@@ -327,7 +327,7 @@
     "line": 30,
     "column": 10,
     "endLine": 30,
-    "endColumn": 11,
+    "endColumn": 17,
     "rule": "stylus/color-hex-case",
     "severity": "error",
     "text": "Expected \"#E2E21E\" to be \"#e2e21e\" (stylus/color-hex-case)"
@@ -344,7 +344,7 @@
   {
     "line": 33,
     "column": 1,
-    "endLine": 36,
+    "endLine": 33,
     "endColumn": 2,
     "rule": "stylus/pythonic",
     "severity": "error",
@@ -354,7 +354,7 @@
     "line": 34,
     "column": 3,
     "endLine": 34,
-    "endColumn": 21,
+    "endColumn": 4,
     "rule": "stylus/at-extend-style",
     "severity": "error",
     "text": "Expected '@extend' instead of '@extends' (stylus/at-extend-style)"
@@ -381,7 +381,7 @@
     "line": 35,
     "column": 10,
     "endLine": 35,
-    "endColumn": 11,
+    "endColumn": 17,
     "rule": "stylus/color-hex-case",
     "severity": "error",
     "text": "Expected \"#E2E21E\" to be \"#e2e21e\" (stylus/color-hex-case)"
@@ -399,7 +399,7 @@
     "line": 38,
     "column": 2,
     "endLine": 38,
-    "endColumn": 3,
+    "endColumn": 8,
     "rule": "stylus/selector-pseudo-class-case",
     "severity": "error",
     "text": "Expected \":Hover\" to be \":hover\" (stylus/selector-pseudo-class-case)"
@@ -407,17 +407,26 @@
   {
     "line": 41,
     "column": 1,
-    "endLine": 45,
-    "endColumn": 14,
+    "endLine": 41,
+    "endColumn": 8,
     "rule": "stylus/selector-type-no-unknown",
     "severity": "error",
     "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
   },
   {
     "line": 44,
+    "column": 3,
+    "endLine": 44,
+    "endColumn": 4,
+    "rule": "selector-no-invalid",
+    "severity": "error",
+    "text": "Invalid selector \"^[0] unknown\", selector is expected (selector-no-invalid)"
+  },
+  {
+    "line": 44,
     "column": 8,
     "endLine": 44,
-    "endColumn": 9,
+    "endColumn": 15,
     "rule": "stylus/selector-type-no-unknown",
     "severity": "error",
     "text": "Unexpected unknown type selector \"unknown\" (stylus/selector-type-no-unknown)"
@@ -479,7 +488,7 @@
   {
     "line": 56,
     "column": 1,
-    "endLine": 58,
+    "endLine": 56,
     "endColumn": 2,
     "rule": "stylus/pythonic",
     "severity": "error",
@@ -515,7 +524,7 @@
   {
     "line": 59,
     "column": 1,
-    "endLine": 64,
+    "endLine": 59,
     "endColumn": 2,
     "rule": "stylus/pythonic",
     "severity": "error",
@@ -582,7 +591,7 @@
     "endColumn": 10,
     "rule": "stylus/property-no-unknown",
     "severity": "error",
-    "text": "Unexpected unknown property \"unknown\" (stylus/property-no-unknown)"
+    "text": "Unknown property \"unknown\" (stylus/property-no-unknown)"
   },
   {
     "line": 70,
@@ -615,7 +624,7 @@
     "line": 78,
     "column": 1,
     "endLine": 78,
-    "endColumn": 22,
+    "endColumn": 2,
     "rule": "stylus/no-at-require",
     "severity": "error",
     "text": "Unexpected '@require', use '@import' instead. (stylus/no-at-require)"

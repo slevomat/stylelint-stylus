@@ -3,6 +3,15 @@
     "version": "1.0.0",
     "description": "Stylelint plugin for Stylus",
     "main": "lib/index.js",
+    "exports": {
+        ".": "./lib/index.js",
+        "./base-config": "./base-config/index.js",
+        "./custom-syntax": "./custom-syntax/index.js",
+        "./no-stylus": "./no-stylus/index.js",
+        "./recommended": "./recommended/index.js",
+        "./standard": "./standard/index.js",
+        "./package.json": "./package.json"
+    },
     "files": [
         "lib",
         "custom-syntax",
@@ -50,7 +59,7 @@
     "homepage": "https://stylus.github.io/stylelint-stylus/",
     "peerDependencies": {
         "postcss-syntax": "^0.36.2",
-        "stylelint": "^13.2.1 || ^14 || ^15 || ^16"
+        "stylelint": "^16.8.2 || ^17 || ^18"
     },
     "peerDependenciesMeta": {
         "postcss-syntax": {
@@ -79,8 +88,8 @@
         "postcss-scss": "^4.0.1",
         "postcss-syntax": "^0.36.2",
         "prettier": "^2.2.1",
-        "stylelint": "^16.0.0",
-        "stylelint-config-recommended": "^14.0.0",
+        "stylelint": "^18.0.0",
+        "stylelint-config-recommended": "^19.0.0",
         "stylelint-stylus": "file:.",
         "vitepress": "^1.0.1"
     },

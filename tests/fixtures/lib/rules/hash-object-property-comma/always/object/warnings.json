@@ -81,10 +81,10 @@
     "text": "Expected comma (stylus/hash-object-property-comma)"
   },
   {
-    "line": 28,
-    "column": 4,
-    "endLine": 28,
-    "endColumn": 5,
+    "line": 29,
+    "column": 1,
+    "endLine": 29,
+    "endColumn": 2,
     "rule": "stylus/hash-object-property-comma",
     "severity": "error",
     "text": "Expected comma (stylus/hash-object-property-comma)"
